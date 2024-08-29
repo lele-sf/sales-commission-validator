@@ -1,0 +1,14 @@
+*.py[co]
+.DS_Store
+.idea
+*.swp*
+*~
+*.tmproj
+*.log
+tmp
+
+env/
+venv/
+.pytest_cache/
+__pycache__/
+.reports

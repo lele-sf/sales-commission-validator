@@ -1,0 +1,7 @@
+[flake8]
+select = B,C,E,F,W,T4,B9,E9,F63,F7,F82
+exclude =
+    ./env/,
+    ./.pytest_cache/,
+    ./_pycache_/,
+max-line-length = 150
