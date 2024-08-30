@@ -42,14 +42,13 @@ def load_data(filename, sheet_name):
 
 
 def save_results(data, headers, sheet_name, filename, folder="results"):
+    file_path = os.path.join(folder, filename)
     try:
         if not filename.lower().endswith(('.xlsx', '.xls')):
             raise ValueError("Invalid file type. Only Excel files are supported.")
 
         if not os.path.exists(folder):
             os.makedirs(folder)
-
-        file_path = os.path.join(folder, filename)
 
         workbook = Workbook()
         sheet = workbook.active
