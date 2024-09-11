@@ -1,6 +1,6 @@
 # Projeto de Gestão de Comissões e Validação de Pagamentos
 
-Este projeto é uma ferramenta desenvolvida como parte do Desafio técnico AAWZ - Automação, com o objetivo de calcular comissões de vendas, validar pagamentos e extrair informações de clientes a partir de arquivos Excel e textos estruturados.
+Este projeto começou como parte de um desafio técnico e foi desenvolvido com o objetivo de calcular comissões de vendas, validar pagamentos e extrair informações de clientes a partir de arquivos Excel e textos estruturados. Agora, está sendo continuado como um projeto pessoal, com o intuito de aprimorar suas funcionalidades e flexibilidade.
 
 ## Funcionalidades
 
